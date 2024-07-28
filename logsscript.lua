@@ -1,3 +1,5 @@
+-- ONLY LOCALSCRIPT
+
 game.Players.PlayerAdded:Connect(function(player)
 	print("Player ID: " .. player.UserId) -- Player ID
 	print("Player Username: " .. player.Name) -- PlayerName
